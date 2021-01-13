@@ -1,13 +1,8 @@
-import React from "react";
-import "./App.css";
+import React , { Component } from "react";
+import Say from './Say';
 
-function App() {
-  const name = "리액트";
-  return (
-    <>
-      <div className="react">{name}</div>
-    </>
-  );
+const App = () => {
+  return <Say/>;
 }
 
 export default App;
